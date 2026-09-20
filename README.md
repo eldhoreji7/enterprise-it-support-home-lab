@@ -43,6 +43,12 @@ Simulated an employee offboarding/security response by disabling an Entra ID acc
 
 [View Scenario 02](scenarios/02-account-disable-session-revocation.md)
 
+### 03 – Security Group Management
+
+Created and managed the `SG-Sales-Users` security group in Microsoft Entra ID, used delegated administration through the Groups Administrator role, and verified John Smith's departmental group membership.
+
+[View Scenario 03](scenarios/03-security-group-management.md)
+
 ## Project Status
 
 This project is actively being expanded with:
