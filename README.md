@@ -1,53 +1,62 @@
-# enterprise-it-support-home-lab
+# Enterprise IT Support & Microsoft 365 Home Lab
 
+A hands-on IT support lab designed to simulate real-world Service Desk, Desktop Support, Microsoft Entra ID, Microsoft 365 and endpoint administration tasks.
 
-A practical home lab by Eldho Reji, building skills for Service Desk,
-Desktop Support and IT Support roles.
+The goal of this project is to demonstrate practical troubleshooting, identity administration, user lifecycle management and enterprise IT support skills using realistic support scenarios.
 
-This portfolio documents simulated support scenarios, the actions
-performed and the evidence used to verify results. All work was
-completed in a personal lab using test accounts.
+## Lab Environment
 
-## Lab environment
+- MacBook Air M1
+- UTM Virtualization
+- Windows 11 ARM
+- Microsoft Azure
+- Microsoft Entra ID
+- Microsoft 365
+- Command Prompt / Windows Administration
 
-- Windows 11 ARM virtual machine running in UTM on an Apple Silicon Mac
-- Microsoft Entra ID Free tenant
-- Test users, a security group and a dedicated Helpdesk Technician account
+## Skills Demonstrated
 
-## Practical exercises completed
+- Windows 11 administration
+- TCP/IP and DNS troubleshooting
+- Local user and group management
+- Standard vs administrator permissions
+- Microsoft Entra ID user administration
+- Password reset and authentication troubleshooting
+- Sign-in log investigation
+- Account disable and enable procedures
+- Session revocation
+- User lifecycle management
+- Security group management
+- Service Desk incident documentation
 
-| Area | Work performed |
-| --- | --- |
-| Windows support | Local user management, administrator and standard-user testing, basic network checks |
-| User administration | Created and updated users; practised disabling and re-enabling accounts |
-| Group management | Created a security group; managed membership and ownership; reviewed audit events |
-| Delegated support | Assigned the Helpdesk Administrator role to a dedicated technician account |
-| Password recovery | Reset a test user's password as the technician and verified subsequent sign-in |
-| Sign-in investigation | Reviewed successful, failed and interrupted sign-ins and authentication details |
-| Account recovery | Deleted a dedicated test user and restored it from Deleted users |
+## Support Scenarios
 
-## Evidence and documentation
+### 01 – Password Reset and Sign-In Verification
 
-Detailed scenario write-ups and selected screenshots are being added.
-Each write-up will explain:
+Simulated a user authentication issue, performed a password reset in Microsoft Entra ID, tested the temporary-password workflow and verified successful authentication using Entra sign-in logs.
 
-1. The simulated support request
-2. The investigation and actions taken
-3. Verification of the outcome
-4. Lessons learned
+[View Scenario 01](scenarios/01-password-reset-signin-verification.md)
 
-Screenshots will be reviewed and redacted before publication.
+### 02 – Account Disable and Session Revocation
 
-## Authentication findings
+Simulated an employee offboarding/security response by disabling an Entra ID account, testing blocked authentication, reviewing sign-in activity and revoking existing user sessions.
 
-Microsoft Authenticator registration was confirmed for a test user.
-The sign-in event reviewed recorded single-factor password authentication.
-That event is not presented as proof of a completed MFA challenge.
+[View Scenario 02](scenarios/02-account-disable-session-revocation.md)
 
-## Planned work
+## Project Status
 
+This project is actively being expanded with:
+
+- Microsoft Entra ID security groups
 - Microsoft 365 administration
-- Endpoint management with Microsoft Intune
-- Additional troubleshooting and ticket documentation
+- MFA and authentication methods
+- Intune endpoint management
+- Microsoft Forms and Power Automate
+- SharePoint-based Service Desk ticketing
+- Additional troubleshooting scenarios
 
-Planned work is not yet completed.
+## Security
+
+All users, identities and scenarios in this repository are simulated lab accounts.
+
+Passwords, credentials, tenant identifiers and unnecessary personal information are excluded from public documentation.
