@@ -51,6 +51,49 @@ Created and managed the `SG-Sales-Users` security group in Microsoft Entra ID, u
 
 ## Project Status
 
+### 04 — Delegated Helpdesk Password Reset
+
+Practised delegated IT administration by using the Helpdesk Administrator role to reset a test user's password in Microsoft Entra ID.
+
+[View Scenario 04](scenarios/04-delegated-helpdesk-password-reset.md)
+
+### 05 — Group Access Removal and Restoration
+
+Simulated troubleshooting user access by removing and restoring Microsoft Entra security group membership.
+
+[View Scenario 05](scenarios/05-group-access-removal-restoration.md)
+
+### 06 — Failed Sign-in Investigation
+
+Investigated Microsoft Entra sign-in logs to identify authentication failures and document troubleshooting findings.
+
+[View Scenario 06](scenarios/06-failed-signin-investigation.md)
+
+### 07 — MFA Recovery Using Temporary Access Pass
+
+Practised an account recovery workflow using Microsoft Entra authentication methods and Temporary Access Pass.
+
+[View Scenario 07](scenarios/07-mfa-recovery-temporary-access-pass.md)
+
+### 08 — Microsoft Entra Device Onboarding
+
+Joined a Windows 11 virtual machine to Microsoft Entra ID and verified device registration and standard-user permissions.
+
+[View Scenario 08](scenarios/08-entra-device-onboarding.md)
+
+### 09 — Windows Network and DNS Troubleshooting
+
+Performed Windows network diagnostics, including IP configuration checks, DNS resolution testing and troubleshooting a simulated DNS failure.
+
+[View Scenario 09](scenarios/09-windows-network-dns-troubleshooting.md)
+
+### 10 — Service Desk Ticket Management and Outlook Troubleshooting
+
+Created a Microsoft Forms support request form and manual Excel ticket tracker. Tested Outlook DNS and HTTPS connectivity, documented troubleshooting findings and simulated escalation of an unresolved incident.
+
+[View Scenario 10](scenarios/10-service-desk-ticket-management.md)
+
+
 This project is actively being expanded with:
 
 - Microsoft Entra ID security groups
