@@ -160,7 +160,7 @@ assign, investigate and escalate simulated IT support requests.
 The tracker demonstrates two incident workflows:
 - INC-0001: Account sign-in support request.
 - INC-0002: Outlook connectivity investigation and escalation.
-![Service Desk Ticket Tracker](10-service-desk-ticket-tracker.png.png)
+![Service Desk Ticket Tracker](10-service-desk-ticket-tracker.png..png)
 ### Evidence — Outlook HTTPS Connectivity Test
 
 The PowerShell test confirmed that the Windows 11 VM could establish a TCP connection to Microsoft's Outlook service over port 443.
