@@ -152,7 +152,15 @@ I also practised documenting technical findings accurately. A successful network
 **The Outlook incident remained unresolved and was escalated.** All employee requests were fictional, and troubleshooting was performed in a controlled home lab rather than on a production employee device.
 
 ## 10. Screenshots and Evidence
+### Evidence — Outlook HTTPS Connectivity Test
 
+The PowerShell test confirmed that the Windows 11 VM could establish a TCP connection to Microsoft's Outlook service over port 443.
+
+![Outlook HTTPS Connectivity Test](10-outlook-https-connectivity.png)
+
+**Result:** TcpTestSucceeded: True
+
+**Note:** This confirms network connectivity from the test VM, not resolution of the simulated Outlook incident.
 The following screenshots can be added to demonstrate the lab:
 
 1. Microsoft Forms — IT Support Request Form
